@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./../sass/main.scss";
+//import "./../sass/main.scss";
 import AddOption from "./addOption";
 import Header from "./header";
 import Action from "./action";
@@ -51,7 +51,6 @@ class IndecisionApp extends Component {
   };
 
   deleteSingleOption = (singleOption) => {
-
     // const newArray = this.state.notes.filter((note) => {
     //   return note !== id;
     // });
