@@ -1,0 +1,75 @@
+.addoption {
+  width: 50%;
+  height: 8.2rem;
+  background: $backcolor3;
+  &__input {
+    width: 80%;
+    height: 3.5rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    background: $mainbackcolor;
+    border: solid 0px;
+    color: $fontcolor;
+    font-size: 2rem;
+  }
+  &__btn {
+    width: 15%;
+    margin-left: 1.3rem;
+    background: $backcolor2;
+    border: solid 0px;
+    height: 3.8rem;
+    transform: translateY(-0.3rem);
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  &__error {
+    font-size: 1.5rem;
+    color: $fontcolor;
+    padding: 0px 0px 0px 1rem;
+    transform: translateY(1rem);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .addoption {
+    &__btn {
+      font-size: 1.3rem;
+      width: 20%;
+    }
+    &__input {
+      width: 73%;
+    }
+  }
+}
+@media screen and (max-width: 850px) {
+  .addoption {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .addoption {
+    &__input {
+      width: 65%;
+      font-size: 1.7rem;
+    }
+    &__btn {
+      font-size: 1.3rem;
+      width: 27%;
+      margin-left: 0.4rem;
+      
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .addoption {
+    &__input {
+      width: 57%;
+    }
+    &__btn {
+      font-size: 1.3rem;
+      width: 33%;
+      margin-left: 0.4rem;
+    }
+  }
+}

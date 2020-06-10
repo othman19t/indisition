@@ -1,0 +1,34 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+$fontcolor: rgb(196, 196, 196);
+$mainbackcolor: #3a393b;
+$backcolor: #291638;
+$backcolor2: #5f3381;
+$backcolor3: #5d5b5f;
+
+$blue: blue;
+$backGroundColor: gray;
+@import "indecision";
+@import "header";
+@import "action";
+@import "options";
+@import "option";
+@import "addoption";
+@import "modal";
+
+@media screen and (max-width: 1200px){
+  html {
+    font-size: 60%;
+    
+  }
+}

@@ -1,0 +1,17 @@
+.action {
+  width: 50%;
+  height: 5rem;
+  background: $backcolor2;
+  font-size: 2.5rem;
+  color: $fontcolor;
+  margin-left: 25%;
+  margin-top: 2rem;
+  cursor: pointer;
+  border: solid 0px;
+}
+@media screen and (max-width: 850px) {
+  .action {
+    width: 80%;
+    margin-left: 10%;
+  }
+}

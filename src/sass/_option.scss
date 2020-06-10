@@ -1,0 +1,22 @@
+.option {
+  width: 100%;
+  min-height: 6rem;
+  display: flex;
+  background: $backcolor3;
+  border-bottom: solid 1px $fontcolor;
+  &__content {
+    margin-left: 1rem;
+    font-size: 2rem;
+    padding: 2rem 0;
+    color: $fontcolor;
+  }
+  &__btn {
+    margin-right: 1rem;
+    border: solid 0px;
+    color: $fontcolor;
+    background: $backcolor3;
+    height: 6rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+}
